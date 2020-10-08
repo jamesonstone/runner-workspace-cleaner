@@ -3,3 +3,6 @@ description: Removes all files in the workspace directory
 runs:
   using: docker
   image: Dockerfile
+branding:
+  icon: delete
+  color: yellow
