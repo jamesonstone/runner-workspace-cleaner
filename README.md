@@ -21,7 +21,7 @@ Manipulating files within a Github Action Workflow with several different Github
     name: "New Github Action Workflow"
     runs-on: [self-hosted]
     steps:
-    - name: runner-workspace-cleaner@v1 # runner-workspace-cleaner added at the started of the job
+    - uses: jstone28/runner-workspace-cleaner@v1.0.0 # runner-workspace-cleaner added at the started of the job
     - name: Use action/checkout to checkout a new project
       uses: actions/checkout@v2
 ```
